@@ -1,0 +1,34 @@
+.loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.pokemon-img{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+    height: 220px;
+}
+
+.card{
+    text-align: center;
+}
+
+.pokemon-time::before{
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-image: url('../img/clock.svg');
+}
+
+.more-btn{
+    display: block !important;
+    margin: 0 auto 40px auto !important;
+}
