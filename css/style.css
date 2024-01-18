@@ -32,3 +32,8 @@
     display: block !important;
     margin: 0 auto 40px auto !important;
 }
+
+.modal-pokemon-img{
+    width: 100%;
+    max-width: 250px;
+}
